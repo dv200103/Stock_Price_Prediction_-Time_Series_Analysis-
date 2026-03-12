@@ -1,4 +1,4 @@
-📈 Stock Market Prediction Using Time Series Analysis
+**📈 **Stock Market Prediction Using Time Series Analysis****
 
 This project demonstrates how Time Series Analysis can be used to model and analyze historical stock price data. Using the ARIMA (Autoregressive Integrated Moving Average) model, the project analyzes Apple stock price history and compares predicted values with actual prices.
 
@@ -8,7 +8,7 @@ The goal of this project is to demonstrate a complete time series analysis pipel
 
 
 
-📊 Features
+**📊 Features**
 
 Load and analyze historical stock price data
 
@@ -28,24 +28,35 @@ Visualize actual vs predicted stock prices
 
 
 
-🧠 Time Series Analysis Workflow
+**🧠 Time Series Analysis Workflow**
 
 The project follows a structured time series modeling approach:
 
 1️⃣ Load historical stock price dataset
+
 2️⃣ Convert date column into time index
+
 3️⃣ Handle missing values in the dataset
+
 4️⃣ Check stationarity using rolling statistics and ADF test
+
 5️⃣ Apply log transformation to stabilize variance
+
 6️⃣ Apply differencing to remove trend
+
 7️⃣ Analyze ACF and PACF plots to understand lag relationships
+
 8️⃣ Train an ARIMA model (1,1,1)
+
 9️⃣ Generate predictions
+
 🔟 Convert predictions back to the original scale and visualize results
 
 
 
-📂 Project Structure
+## 📂 Project Structure
+
+```
 Stock-Market-Prediction-Using-Time-Series-Analysis
 │
 ├── Dataset
@@ -60,8 +71,9 @@ Stock-Market-Prediction-Using-Time-Series-Analysis
 ├── TimeSeriesAnalysis.py
 ├── requirements.txt
 └── README.md
+```
 
-Folder Description
+**Folder Description**
 
 Dataset/
 Contains historical stock price datasets used for time series analysis.
@@ -104,7 +116,7 @@ Project documentation including description, workflow, installation steps, and r
 
 
 
-⚙️ Technologies Used
+**⚙️ Technologies Used**
 
 Python
 
@@ -120,16 +132,18 @@ Scikit-learn
 
 
 
-📦 Installation
+**📦 Installation**
 
 Clone the repository:
 git clone https://github.com/dv200103/Stock_Price_Prediction_-Time_Series_Analysis-.git
+
 cd Stock_Price_Prediction_-Time_Series_Analysis-
 
 Install dependencies:
+
 pip install -r requirements.txt
 
-▶️ Running the Project
+**▶️ Running the Project**
 
 Run the script using Python:
 
@@ -147,7 +161,7 @@ Display graphs showing prediction results
 
 
 
-📈 Output Example
+**📈 Output Example**
 
 The project generates visualization plots such as:
 
@@ -167,7 +181,7 @@ These graphs help visualize how well the ARIMA model fits the historical stock p
 
 
 
-⚠️ Limitations
+**⚠️ Limitations**
 
 The model uses historical price data only and does not include external market factors.
 
@@ -177,7 +191,7 @@ Financial markets are inherently volatile, so predictions should not be used for
 
 
 
-🚀 Possible Improvements
+**🚀 Possible Improvements**
 
 Future improvements could include:
 
@@ -193,6 +207,6 @@ Using advanced models like LSTM or Prophet
 
 
 
-📜 License
+**📜 License**
 
 This project is open-source and available under the MIT License.
